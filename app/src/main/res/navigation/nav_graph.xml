@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.myapplication1.MenuFragment"
+        android:label="@string/menu_fragment_label"
+        tools:layout="@layout/fragment_menu">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_editCategoryFragment"
+            app:destination="@id/editCategoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.myapplication1.QuizFragment"
+        android:label="@string/quiz_fragment_label"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quizFragment_to_quizQuestionFragment"
+            app:destination="@id/quizQuestionFragment" />
+        <action
+            android:id="@+id/action_quizFragment_to_categoryQuestionFragment"
+            app:destination="@id/categoryQuestionFragment" />
+        <action
+            android:id="@+id/action_quizFragment_to_setQuestionFragment"
+            app:destination="@id/setQuestionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.myapplication1.edits.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/quizQuestionFragment"
+        android:name="com.example.myapplication1.quizzes.quizQuestionFragment"
+        android:label="fragment_quiz_question"
+        tools:layout="@layout/fragment_quiz_question" >
+        <action
+            android:id="@+id/action_quizQuestionFragment_self"
+            app:destination="@id/quizQuestionFragment" />
+        <action
+            android:id="@+id/action_quizQuestionFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCategoryFragment"
+        android:name="com.example.myapplication1.edits.editCategoryFragment"
+        android:label="fragment_edit_category"
+        tools:layout="@layout/fragment_edit_category" />
+    <fragment
+        android:id="@+id/categoryQuestionFragment"
+        android:name="com.example.myapplication1.quizzes.CategoryQuestionFragment"
+        android:label="fragment_category_question"
+        tools:layout="@layout/fragment_category_question" >
+        <action
+            android:id="@+id/action_categoryQuestionFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_categoryQuestionFragment_self"
+            app:destination="@id/categoryQuestionFragment" />
+        <argument
+            android:name="category"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/setQuestionFragment"
+        android:name="com.example.myapplication1.quizzes.SetQuestionFragment"
+        android:label="fragment_set_question"
+        tools:layout="@layout/fragment_set_question" >
+        <action
+            android:id="@+id/action_setQuestionFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_setQuestionFragment_self"
+            app:destination="@id/setQuestionFragment" />
+        <argument
+            android:name="quizSet"
+            app:argType="string" />
+    </fragment>
+</navigation>

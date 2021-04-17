@@ -1,0 +1,31 @@
+<resources>
+    <string-array name="comfortArray">
+        <item>1 - Poorly</item>
+        <item>2 - Somewhat poorly</item>
+        <item>3 - Average</item>
+        <item>4 - Well</item>
+        <item>5 - Very well</item>
+    </string-array>
+    <string name="app_name">StudyCards</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="menu_fragment_label">Menu Fragment</string>
+    <string name="quiz_fragment_label">Quiz Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="quiz_mode">Quiz Mode</string>
+    <string name="edit_mode">Edit Mode</string>
+    <string name="hello_blank_fragment">placeholer</string>
+    <string name="add_question">Add Question</string>
+    <string name="type_question_here">Type question here...</string>
+    <string name="input_a_question_here">Input a question here</string>
+    <string name="type_answer_here">Type answer here...</string>
+    <string name="input_an_answer_here">Input an answer here</string>
+    <string name="type_a_question_here">Type a question here...</string>
+    <string name="type_an_answer_here">Type an answer here...</string>
+    <string name="type_a_category_here">Type a category here...</string>
+    <string name="type_a_category_description_here">Type a category description here...</string>
+</resources>
