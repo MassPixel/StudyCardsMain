@@ -1,0 +1,85 @@
+com/example/myapplication1/quizzes/CategoryQuestionFragmentDirections.java
+ com.example.myapplication1.quizzes.CategoryQuestionFragmentDirections
+ com.example.myapplication1.quizzes.CategoryQuestionFragmentDirections$1
+ com.example.myapplication1.quizzes.CategoryQuestionFragmentDirections$ActionCategoryQuestionFragmentSelf
+com/example/myapplication1/quizzes/SetQuestionFragmentDirections.java
+ com.example.myapplication1.quizzes.SetQuestionFragmentDirections
+ com.example.myapplication1.quizzes.SetQuestionFragmentDirections$1
+ com.example.myapplication1.quizzes.SetQuestionFragmentDirections$ActionSetQuestionFragmentSelf
+com/example/myapplication1/quizzes/quizQuestionFragment.java
+ com.example.myapplication1.quizzes.quizQuestionFragment
+ com.example.myapplication1.quizzes.quizQuestionFragment$1
+ com.example.myapplication1.quizzes.quizQuestionFragment$2
+ com.example.myapplication1.quizzes.quizQuestionFragment$3
+com/example/myapplication1/quizzes/CategoryQuestionFragmentArgs.java
+ com.example.myapplication1.quizzes.CategoryQuestionFragmentArgs
+ com.example.myapplication1.quizzes.CategoryQuestionFragmentArgs$1
+ com.example.myapplication1.quizzes.CategoryQuestionFragmentArgs$Builder
+com/example/myapplication1/quizzes/quizQuestionFragmentDirections.java
+ com.example.myapplication1.quizzes.quizQuestionFragmentDirections
+com/example/myapplication1/MenuFragmentDirections.java
+ com.example.myapplication1.MenuFragmentDirections
+com/example/myapplication1/data/QuizSetDAO.java
+ com.example.myapplication1.data.QuizSetDAO
+com/example/myapplication1/data/CategoryQuestionCrossRef.java
+ com.example.myapplication1.data.CategoryQuestionCrossRef
+com/example/myapplication1/data/QuizSet.java
+ com.example.myapplication1.data.QuizSet
+com/example/myapplication1/quizzes/CategoryQuestionFragment.java
+ com.example.myapplication1.quizzes.CategoryQuestionFragment
+ com.example.myapplication1.quizzes.CategoryQuestionFragment$1
+com/example/myapplication1/data/QuizSetWithQuestions.java
+ com.example.myapplication1.data.QuizSetWithQuestions
+com/example/myapplication1/data/AppDatabase.java
+ com.example.myapplication1.data.AppDatabase
+com/example/myapplication1/data/CategoryWithQuestions.java
+ com.example.myapplication1.data.CategoryWithQuestions
+com/example/myapplication1/data/QuizSetQuestionCrossRef.java
+ com.example.myapplication1.data.QuizSetQuestionCrossRef
+com/example/myapplication1/quizzes/SetQuestionFragment.java
+ com.example.myapplication1.quizzes.SetQuestionFragment
+com/example/myapplication1/data/QuestionDAO.java
+ com.example.myapplication1.data.QuestionDAO
+com/example/myapplication1/QuizFragment.java
+ com.example.myapplication1.QuizFragment
+ com.example.myapplication1.QuizFragment$1
+ com.example.myapplication1.QuizFragment$2
+ com.example.myapplication1.QuizFragment$3
+com/example/myapplication1/MainActivity.java
+ com.example.myapplication1.MainActivity
+com/example/myapplication1/QuizFragmentDirections.java
+ com.example.myapplication1.QuizFragmentDirections
+ com.example.myapplication1.QuizFragmentDirections$1
+ com.example.myapplication1.QuizFragmentDirections$ActionQuizFragmentToCategoryQuestionFragment
+ com.example.myapplication1.QuizFragmentDirections$ActionQuizFragmentToSetQuestionFragment
+com/example/myapplication1/data/Question.java
+ com.example.myapplication1.data.Question
+com/example/myapplication1/data/CategoryWithQuestionsDAO.java
+ com.example.myapplication1.data.CategoryWithQuestionsDAO
+com/example/myapplication1/MenuFragment.java
+ com.example.myapplication1.MenuFragment
+ com.example.myapplication1.MenuFragment$1
+ com.example.myapplication1.MenuFragment$2
+ com.example.myapplication1.MenuFragment$3
+com/example/myapplication1/BuildConfig.java
+ com.example.myapplication1.BuildConfig
+com/example/myapplication1/edits/editCategoryFragment.java
+ com.example.myapplication1.edits.editCategoryFragment
+ com.example.myapplication1.edits.editCategoryFragment$1
+ com.example.myapplication1.edits.editCategoryFragment$2
+ com.example.myapplication1.edits.editCategoryFragment$3
+com/example/myapplication1/quizzes/SetQuestionFragmentArgs.java
+ com.example.myapplication1.quizzes.SetQuestionFragmentArgs
+ com.example.myapplication1.quizzes.SetQuestionFragmentArgs$1
+ com.example.myapplication1.quizzes.SetQuestionFragmentArgs$Builder
+com/example/myapplication1/data/CategoryDAO.java
+ com.example.myapplication1.data.CategoryDAO
+com/example/myapplication1/data/QuizSetWithQuestionsDAO.java
+ com.example.myapplication1.data.QuizSetWithQuestionsDAO
+com/example/myapplication1/data/Category.java
+ com.example.myapplication1.data.Category
+com/example/myapplication1/edits/EditFragment.java
+ com.example.myapplication1.edits.EditFragment
+ com.example.myapplication1.edits.EditFragment$1
+ com.example.myapplication1.edits.EditFragment$2
+ com.example.myapplication1.edits.EditFragment$3

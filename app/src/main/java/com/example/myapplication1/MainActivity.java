@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
 
+
         AppDatabase db = Room.databaseBuilder(getApplicationContext(),
                 AppDatabase.class, "quiz-database").build();
     }
